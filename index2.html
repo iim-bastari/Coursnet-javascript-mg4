@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=
+    , initial-scale=1.0">
+    <title>Javascript</title>
+</head>
+<body>
+    
+
+    <script>
+        // let tahun = prompt ('Tahun Berapa Indonesia Merdeka ?')
+        // if(tahun < 1945){
+        //     alert('Belum Merdeka')
+        // }else if(tahun > 1945){
+        //     alert('Sudah Merdeka')
+        // }else{
+        //     alert('Pas Merdeka')
+        // }
+
+
+        // const score = true
+        // const attendance = false
+        // const attitide = false
+
+        // const result = attendance || attitide || score
+        // // const result = attendance && attitide && score
+        // console.log(result)
+
+
+        const cars = [
+        'ayla', 
+        'sigra', 
+        'avanza', 
+        'expander',
+        'ayla', 
+        'sigra', 
+        'avanza', 
+        'expander',]
+        console.log('MOBIL', cars)
+        // console.log('Index ke 0', cars[0])
+        // console.log('Index Ke 1', cars[1])
+        // console.log('JUMLAH DATA', cars.length)
+        // console.log('REVERSE', cars.reverse())
+        // console.log('SORT', cars.sort())
+    
+            // Looping
+        // for (let i = 1; i <= cars.lengh; i++){
+        //     console.log(cars[i - 1])
+        // }
+
+            // Tipe Function Declaration
+        // function logger(name, age){
+        //     console.log(name, age)
+        // }
+        // logger('Iim Bastari, 34')
+
+
+        // Tipe Function Expression
+        const logger = function(name, age){
+            const result = `Nama : ${name} dan usia ${age}`
+            return result
+        }
+        const input = logger('Iim Bastari', 34)
+        console.log(input)
+
+
+        // Arrow function
+        const logger2 = (nama, age) => {
+            const result = `Nama : ${nama} dan usia ${age}`
+            return result
+        }
+        console.log(logger2('Iim Bastari', 34))
+
+
+
+        // CHECK AGE
+        // Const CheckAge = function(born){
+        // Const result = 2022 - born
+        // return result
+        // }
+
+        const CheckAge = (born) => {
+            const now = 2022
+            const result = now - born
+            return result
+        }
+        console.log(CheckAge(1988))
+    
+    </script>
+
+
+
+<script src="index.js"></script>
+
+</body>
+</html>
